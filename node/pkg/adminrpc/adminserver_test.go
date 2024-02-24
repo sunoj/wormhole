@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	nodev1 "github.com/certusone/wormhole/node/pkg/proto/node/v1"
-	"github.com/certusone/wormhole/node/pkg/watchers/evm/connectors"
-	"github.com/certusone/wormhole/node/pkg/watchers/evm/connectors/ethabi"
+	nodev1 "github.com/certusone/wormhole/pkg/proto/node/v1"
+	"github.com/certusone/wormhole/pkg/watchers/evm/connectors"
+	"github.com/certusone/wormhole/pkg/watchers/evm/connectors/ethabi"
 	ethereum "github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"

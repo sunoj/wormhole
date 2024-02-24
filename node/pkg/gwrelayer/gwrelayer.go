@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/certusone/wormhole/node/pkg/common"
-	"github.com/certusone/wormhole/node/pkg/supervisor"
+	"github.com/certusone/wormhole/pkg/common"
+	"github.com/certusone/wormhole/pkg/supervisor"
 	"github.com/wormhole-foundation/wormhole/sdk"
 	"github.com/wormhole-foundation/wormhole/sdk/vaa"
 

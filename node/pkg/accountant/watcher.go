@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/certusone/wormhole/node/pkg/common"
+	"github.com/certusone/wormhole/pkg/common"
 	"github.com/wormhole-foundation/wormhole/sdk/vaa"
 
 	ethCommon "github.com/ethereum/go-ethereum/common"

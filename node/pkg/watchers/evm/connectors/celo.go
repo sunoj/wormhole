@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	celoAbi "github.com/certusone/wormhole/node/pkg/watchers/evm/connectors/celoabi"
-	ethAbi "github.com/certusone/wormhole/node/pkg/watchers/evm/connectors/ethabi"
+	celoAbi "github.com/certusone/wormhole/pkg/watchers/evm/connectors/celoabi"
+	ethAbi "github.com/certusone/wormhole/pkg/watchers/evm/connectors/ethabi"
 
 	celoBind "github.com/celo-org/celo-blockchain/accounts/abi/bind"
 	celoCommon "github.com/celo-org/celo-blockchain/common"
@@ -21,7 +21,7 @@ import (
 	ethEvent "github.com/ethereum/go-ethereum/event"
 	ethRpc "github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/certusone/wormhole/node/pkg/common"
+	"github.com/certusone/wormhole/pkg/common"
 	"go.uber.org/zap"
 )
 

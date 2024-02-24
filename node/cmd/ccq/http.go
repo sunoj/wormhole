@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/certusone/wormhole/node/pkg/common"
-	gossipv1 "github.com/certusone/wormhole/node/pkg/proto/gossip/v1"
-	"github.com/certusone/wormhole/node/pkg/query"
+	"github.com/certusone/wormhole/pkg/common"
+	gossipv1 "github.com/certusone/wormhole/pkg/proto/gossip/v1"
+	"github.com/certusone/wormhole/pkg/query"
 	"github.com/gorilla/mux"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"go.uber.org/zap"

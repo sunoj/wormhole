@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/certusone/wormhole/node/cmd/ccq"
-	"github.com/certusone/wormhole/node/cmd/debug"
-	"github.com/certusone/wormhole/node/cmd/spy"
-	"github.com/certusone/wormhole/node/pkg/version"
+	"github.com/certusone/wormhole/cmd/ccq"
+	"github.com/certusone/wormhole/cmd/debug"
+	"github.com/certusone/wormhole/cmd/spy"
+	"github.com/certusone/wormhole/pkg/version"
 
 	"github.com/spf13/cobra"
 
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/spf13/viper"
 
-	"github.com/certusone/wormhole/node/cmd/guardiand"
+	"github.com/certusone/wormhole/cmd/guardiand"
 )
 
 var cfgFile string

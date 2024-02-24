@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/certusone/wormhole/node/pkg/common"
+	"github.com/certusone/wormhole/pkg/common"
 	"go.uber.org/zap"
 )
 

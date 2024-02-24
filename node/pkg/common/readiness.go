@@ -3,7 +3,7 @@ package common
 import (
 	"fmt"
 
-	"github.com/certusone/wormhole/node/pkg/readiness"
+	"github.com/certusone/wormhole/pkg/readiness"
 	"github.com/wormhole-foundation/wormhole/sdk/vaa"
 )
 

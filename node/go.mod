@@ -1,4 +1,4 @@
-module github.com/sunoj/wormhole/node
+module github.com/certusone/wormhole/node
 
 go 1.20
 

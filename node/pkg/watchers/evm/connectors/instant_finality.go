@@ -3,7 +3,7 @@ package connectors
 import (
 	"context"
 
-	"github.com/certusone/wormhole/node/pkg/common"
+	"github.com/certusone/wormhole/pkg/common"
 	"go.uber.org/zap"
 
 	ethereum "github.com/ethereum/go-ethereum"

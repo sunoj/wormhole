@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/certusone/wormhole/node/pkg/watchers/evm/connectors"
+	"github.com/certusone/wormhole/pkg/watchers/evm/connectors"
 
-	"github.com/certusone/wormhole/node/pkg/common"
+	"github.com/certusone/wormhole/pkg/common"
 	eth_common "github.com/ethereum/go-ethereum/common"
 	"github.com/wormhole-foundation/wormhole/sdk/vaa"
 )
