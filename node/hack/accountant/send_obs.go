@@ -9,9 +9,9 @@ import (
 	"encoding/hex"
 	"time"
 
-	"github.com/certusone/wormhole/node/pkg/accountant"
-	"github.com/certusone/wormhole/node/pkg/common"
-	"github.com/certusone/wormhole/node/pkg/wormconn"
+	"github.com/sunoj/wormhole/node/pkg/accountant"
+	"github.com/sunoj/wormhole/node/pkg/common"
+	"github.com/sunoj/wormhole/node/pkg/wormconn"
 	"github.com/wormhole-foundation/wormhole/sdk/vaa"
 
 	sdktx "github.com/cosmos/cosmos-sdk/types/tx"

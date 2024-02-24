@@ -14,14 +14,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/certusone/wormhole/node/pkg/common"
-	"github.com/certusone/wormhole/node/pkg/p2p"
-	"github.com/certusone/wormhole/node/pkg/readiness"
-	"github.com/certusone/wormhole/node/pkg/supervisor"
-	"github.com/certusone/wormhole/node/pkg/watchers/cosmwasm"
+	"github.com/sunoj/wormhole/node/pkg/common"
+	"github.com/sunoj/wormhole/node/pkg/p2p"
+	"github.com/sunoj/wormhole/node/pkg/readiness"
+	"github.com/sunoj/wormhole/node/pkg/supervisor"
+	"github.com/sunoj/wormhole/node/pkg/watchers/cosmwasm"
 	"github.com/wormhole-foundation/wormhole/sdk/vaa"
 
-	gossipv1 "github.com/certusone/wormhole/node/pkg/proto/gossip/v1"
+	gossipv1 "github.com/sunoj/wormhole/node/pkg/proto/gossip/v1"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"

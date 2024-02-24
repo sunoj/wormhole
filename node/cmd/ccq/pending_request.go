@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"sync"
 
-	gossipv1 "github.com/certusone/wormhole/node/pkg/proto/gossip/v1"
+	gossipv1 "github.com/sunoj/wormhole/node/pkg/proto/gossip/v1"
 )
 
 type PendingResponse struct {

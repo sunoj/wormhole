@@ -11,7 +11,7 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"go.uber.org/zap"
 
-	"github.com/certusone/wormhole/node/pkg/common"
+	"github.com/sunoj/wormhole/node/pkg/common"
 	"github.com/wormhole-foundation/wormhole/sdk/vaa"
 )
 

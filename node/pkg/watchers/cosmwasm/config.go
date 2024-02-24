@@ -1,12 +1,12 @@
 package cosmwasm
 
 import (
-	"github.com/certusone/wormhole/node/pkg/common"
-	gossipv1 "github.com/certusone/wormhole/node/pkg/proto/gossip/v1"
-	"github.com/certusone/wormhole/node/pkg/query"
-	"github.com/certusone/wormhole/node/pkg/supervisor"
-	"github.com/certusone/wormhole/node/pkg/watchers"
-	"github.com/certusone/wormhole/node/pkg/watchers/interfaces"
+	"github.com/sunoj/wormhole/node/pkg/common"
+	gossipv1 "github.com/sunoj/wormhole/node/pkg/proto/gossip/v1"
+	"github.com/sunoj/wormhole/node/pkg/query"
+	"github.com/sunoj/wormhole/node/pkg/supervisor"
+	"github.com/sunoj/wormhole/node/pkg/watchers"
+	"github.com/sunoj/wormhole/node/pkg/watchers/interfaces"
 	"github.com/wormhole-foundation/wormhole/sdk/vaa"
 )
 

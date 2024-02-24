@@ -3,7 +3,7 @@ package devnet
 import (
 	"fmt"
 
-	"github.com/certusone/wormhole/node/pkg/common"
+	"github.com/sunoj/wormhole/node/pkg/common"
 
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 )

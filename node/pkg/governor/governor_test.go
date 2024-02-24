@@ -16,8 +16,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/certusone/wormhole/node/pkg/common"
-	"github.com/certusone/wormhole/node/pkg/db"
+	"github.com/sunoj/wormhole/node/pkg/common"
+	"github.com/sunoj/wormhole/node/pkg/db"
 	"github.com/wormhole-foundation/wormhole/sdk/vaa"
 	"go.uber.org/zap"
 )
