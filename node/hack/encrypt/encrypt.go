@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/certusone/wormhole/pkg/common"
+	"github.com/certusone/wormhole/node/pkg/common"
 )
 
 func main() {

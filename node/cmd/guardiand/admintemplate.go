@@ -19,8 +19,8 @@ import (
 	"github.com/spf13/cobra"
 	"google.golang.org/protobuf/encoding/prototext"
 
-	"github.com/certusone/wormhole/pkg/devnet"
-	nodev1 "github.com/certusone/wormhole/pkg/proto/node/v1"
+	"github.com/certusone/wormhole/node/pkg/devnet"
+	nodev1 "github.com/certusone/wormhole/node/pkg/proto/node/v1"
 )
 
 var setUpdateNumGuardians *int

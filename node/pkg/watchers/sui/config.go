@@ -1,12 +1,12 @@
 package sui
 
 import (
-	"github.com/certusone/wormhole/pkg/common"
-	gossipv1 "github.com/certusone/wormhole/pkg/proto/gossip/v1"
-	"github.com/certusone/wormhole/pkg/query"
-	"github.com/certusone/wormhole/pkg/supervisor"
-	"github.com/certusone/wormhole/pkg/watchers"
-	"github.com/certusone/wormhole/pkg/watchers/interfaces"
+	"github.com/certusone/wormhole/node/pkg/common"
+	gossipv1 "github.com/certusone/wormhole/node/pkg/proto/gossip/v1"
+	"github.com/certusone/wormhole/node/pkg/query"
+	"github.com/certusone/wormhole/node/pkg/supervisor"
+	"github.com/certusone/wormhole/node/pkg/watchers"
+	"github.com/certusone/wormhole/node/pkg/watchers/interfaces"
 	"github.com/wormhole-foundation/wormhole/sdk/vaa"
 )
 

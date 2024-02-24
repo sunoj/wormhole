@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/certusone/wormhole/pkg/common"
-	"github.com/certusone/wormhole/pkg/supervisor"
+	"github.com/certusone/wormhole/node/pkg/common"
+	"github.com/certusone/wormhole/node/pkg/supervisor"
 
 	ethereum "github.com/ethereum/go-ethereum"
 	ethEvent "github.com/ethereum/go-ethereum/event"

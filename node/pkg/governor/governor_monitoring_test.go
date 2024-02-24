@@ -3,7 +3,7 @@ package governor
 import (
 	"testing"
 
-	"github.com/certusone/wormhole/pkg/common"
+	"github.com/certusone/wormhole/node/pkg/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"

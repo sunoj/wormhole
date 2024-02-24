@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/certusone/wormhole/pkg/query"
+	"github.com/certusone/wormhole/node/pkg/query"
 	"github.com/gagliardetto/solana-go/rpc/jsonrpc"
 
 	"github.com/stretchr/testify/assert"

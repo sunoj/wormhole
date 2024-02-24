@@ -6,12 +6,12 @@ import (
 	"net"
 	"os"
 
-	"github.com/certusone/wormhole/pkg/common"
-	"github.com/certusone/wormhole/pkg/db"
-	"github.com/certusone/wormhole/pkg/governor"
-	publicrpcv1 "github.com/certusone/wormhole/pkg/proto/publicrpc/v1"
-	"github.com/certusone/wormhole/pkg/publicrpc"
-	"github.com/certusone/wormhole/pkg/supervisor"
+	"github.com/certusone/wormhole/node/pkg/common"
+	"github.com/certusone/wormhole/node/pkg/db"
+	"github.com/certusone/wormhole/node/pkg/governor"
+	publicrpcv1 "github.com/certusone/wormhole/node/pkg/proto/publicrpc/v1"
+	"github.com/certusone/wormhole/node/pkg/publicrpc"
+	"github.com/certusone/wormhole/node/pkg/supervisor"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 )

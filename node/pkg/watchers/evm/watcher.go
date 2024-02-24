@@ -9,12 +9,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/certusone/wormhole/pkg/watchers/evm/connectors"
-	"github.com/certusone/wormhole/pkg/watchers/evm/connectors/ethabi"
-	"github.com/certusone/wormhole/pkg/watchers/interfaces"
+	"github.com/certusone/wormhole/node/pkg/watchers/evm/connectors"
+	"github.com/certusone/wormhole/node/pkg/watchers/evm/connectors/ethabi"
+	"github.com/certusone/wormhole/node/pkg/watchers/interfaces"
 
-	"github.com/certusone/wormhole/pkg/p2p"
-	gossipv1 "github.com/certusone/wormhole/pkg/proto/gossip/v1"
+	"github.com/certusone/wormhole/node/pkg/p2p"
+	gossipv1 "github.com/certusone/wormhole/node/pkg/proto/gossip/v1"
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
@@ -25,10 +25,10 @@ import (
 	eth_hexutil "github.com/ethereum/go-ethereum/common/hexutil"
 	"go.uber.org/zap"
 
-	"github.com/certusone/wormhole/pkg/common"
-	"github.com/certusone/wormhole/pkg/query"
-	"github.com/certusone/wormhole/pkg/readiness"
-	"github.com/certusone/wormhole/pkg/supervisor"
+	"github.com/certusone/wormhole/node/pkg/common"
+	"github.com/certusone/wormhole/node/pkg/query"
+	"github.com/certusone/wormhole/node/pkg/readiness"
+	"github.com/certusone/wormhole/node/pkg/supervisor"
 	"github.com/wormhole-foundation/wormhole/sdk/vaa"
 )
 

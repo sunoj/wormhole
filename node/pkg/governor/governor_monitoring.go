@@ -80,9 +80,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/certusone/wormhole/pkg/db"
-	gossipv1 "github.com/certusone/wormhole/pkg/proto/gossip/v1"
-	publicrpcv1 "github.com/certusone/wormhole/pkg/proto/publicrpc/v1"
+	"github.com/certusone/wormhole/node/pkg/db"
+	gossipv1 "github.com/certusone/wormhole/node/pkg/proto/gossip/v1"
+	publicrpcv1 "github.com/certusone/wormhole/node/pkg/proto/publicrpc/v1"
 	"github.com/wormhole-foundation/wormhole/sdk/vaa"
 	"go.uber.org/zap"
 
